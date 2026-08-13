@@ -9,7 +9,7 @@
 
 | Identificación | Información |
 |---|---|
-| Integrante 1 | COMPLETAR |
+| Integrante 1 | Patricio Viera |
 | Integrante 2 | COMPLETAR |
 | Sección y fecha | COMPLETAR |
 | URL del repositorio | COMPLETAR AL FINAL |
@@ -28,23 +28,23 @@ Analizar y delimitar una funcionalidad antes de diseñar clases o escribir códi
 
 ### 1.1 Tres hechos explícitos
 
-1. COMPLETAR
-2. COMPLETAR
-3. COMPLETAR
+1. hay Un entrenador 
+2. Hay criaturas
+3. Hay capsulas para capturar criaturas
 
 ### 1.2 Tres ambigüedades convertidas en preguntas
 
 | N.º | Expresión ambigua | Pregunta que debe responder el cliente |
 |---:|---|---|
-| 1 | COMPLETAR | COMPLETAR |
+| 1 | Criatura cercana | esta cerca para atrapar |
 | 2 | COMPLETAR | COMPLETAR |
 | 3 | COMPLETAR | COMPLETAR |
 
 ### 1.3 Supuesto provisional
 
-**Supuesto:** COMPLETAR  
-**Por qué es provisional:** COMPLETAR  
-**Cómo podría confirmarse:** COMPLETAR
+**Supuesto:** COMPLETAR distancia con la ciatura 
+**Por qué es provisional:** COMPLETAR  porque el cliente no ha definido la distancia
+**Cómo podría confirmarse:** COMPLETAR hablando con el cliente
 
 Un supuesto no es una verdad del caso. Debe quedar marcado hasta que el cliente, una regla oficial o una evidencia lo confirme.
 
@@ -56,18 +56,18 @@ Fórmula orientadora:
 
 ### 2.1 Actor, necesidad y objetivo
 
-**Actor principal:** COMPLETAR  
-**Necesidad:** COMPLETAR  
+**Actor principal:** COMPLETAR  Entrenador
+**Necesidad:** COMPLETAR  capturar una criatura
 **Objetivo reescrito:** COMPLETAR
 
 ### 2.2 Entrada, proceso y salida (EPS)
 
 #### Entradas necesarias
 
-1. COMPLETAR
-2. COMPLETAR
-3. COMPLETAR
-4. COMPLETAR
+1. COMPLETAR Entrenador
+2. COMPLETAR Criatura
+3. COMPLETAR Inventario
+4. COMPLETAR 
 
 #### Proceso observable
 
@@ -80,8 +80,8 @@ Fórmula orientadora:
 
 #### Salidas esperadas
 
-1. COMPLETAR
-2. COMPLETAR
+1. COMPLETAR ha sido capturado
+2. COMPLETAR 
 3. COMPLETAR
 4. COMPLETAR
 
@@ -93,15 +93,15 @@ Una **regla** define qué comportamiento es válido. Una **restricción** limita
 
 ### 3.1 Reglas del problema
 
-1. COMPLETAR
-2. COMPLETAR
+1. COMPLETAR 1 accion por turno
+2. COMPLETAR 
 3. COMPLETAR
 4. COMPLETAR
 
 ### 3.2 Restricciones
 
-1. COMPLETAR
-2. COMPLETAR
+1. COMPLETAR 
+2. COMPLETAR 
 3. COMPLETAR
 
 ### 3.3 Delimitación de la primera versión
